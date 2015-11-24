@@ -1,0 +1,96 @@
+\documentclass[12pt,a4paper,openany]{book}
+\usepackage{lmodern}
+\usepackage[svgnames]{xcolor} % Required to specify font color
+\input{./templates/couleurs.tex}
+%
+\usepackage{makeidx}
+\usepackage[utf8]{inputenc} 
+\usepackage{marvosym}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage[top=1.7cm, bottom=1.7cm, left=1.7cm, right=1.7cm]{geometry}
+\usepackage{verbatim}
+\usepackage[urlbordercolor={1 1 1}, linkbordercolor={1 1 1}, linkcolor=vert1, urlcolor=bleu, colorlinks=true]{hyperref}
+\usepackage{tikz} %Vectoriel
+\usepackage{listings}
+\usepackage{fancyhdr}
+\usepackage{multido}
+\usepackage{amssymb}
+\usepackage{slashbox}
+\usepackage{float}
+\usepackage[francais]{minitoc}
+\usepackage[final]{pdfpages} 
+\usepackage{pgfgantt}
+\usepackage{graphicx} % Required for box manipulation
+\usepackage{makeidx}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{epstopdf}
+
+
+\newcommand{\titre}{Mémoire Technique}
+\newcommand{\logoFooter}{~}
+\newcommand{\titreFooter}{Plan de Gestion de Configuration} 
+\newcommand{\subtitle}{Réponse à l'appel d'offre de la région PACA} 
+\newcommand{\auteur}{BERBIE Florent, DE ROQUEMAUREL Antoine}
+\newcommand{\semestre}{S9}
+\newcommand{\annee}{2015}
+%
+%
+\newcommand{\pole}{}
+\newcommand{\sigle}{}
+\newcommand{\FactDev}{\textit{FactDev}}
+\newcommand{\key}[1]{\textit{#1}}
+\newcommand{\ident}{\setlength{\parindent}{1cm}}
+\newcommand{\approved}{true}
+\newcommand{\scrum}{\textit{SCRUM}}
+\newcommand{\Release}{\textit{Release}}
+\newcommand{\Sprint}{\textit{Sprint}}
+\newcommand{\Sprints}{\textit{Sprints}}
+\newcommand{\Story}{\textit{Story}}
+\newcommand{\Stories}{\textit{Stories}}
+\newcommand{\UserStory}{\textit{User Story}}
+\newcommand{\UserStories}{\textit{User Stories}}
+\newcommand{\TechnicalStory}{\textit{Technical Story}}
+\newcommand{\TechnicalStories}{\textit{Technical Stories}}
+
+\makeindex
+\usepackage[totoc]{idxlayout}
+
+
+\input{./templates/listings.tex}
+\input{./templates/classroomsTemplates/l3/cours.tex}
+\input{./templates/remarquesExempleAttention.tex}
+\input{./templates/polices.tex}
+\input{./templates/affichageChapitre.tex}
+
+\input{./templates/cover/couverture.tex}
+\makeatother
+\includeonly {
+%	contents/0-preambule,
+%	contents/1-identification_criteria,
+%	contents/2-limitations,
+%	contents/3-responsabilities_authorities,
+%	contents/4-planning,
+%	contents/5-maintenance,
+%	contents/references
+}
+\begin{document}
+	\thispagestyle{empty} % Removes page numbers
+	\titleBC
+	\dominitoc
+	\setcounter{tocdepth}{1}
+	\setcounter{secnumdepth}{3}
+	\setcounter{minitocdepth}{1}
+	
+	\tableofcontents
+
+%	\include{contents/0-preambule}
+%	\include{contents/1-identification_criteria}
+%	\include{contents/2-limitations}
+%	\include{contents/3-responsabilities_authorities}
+%	\include{contents/4-planning}
+%	\include{contents/5-maintenance}
+
+
+\end{document}
