@@ -1,5 +1,38 @@
-	\section{Moyens techniques}
+\section{Moyens techniques}
+\begin{exemple}
+\textbf{Hypothèse} Le projet CORRELYCE est actuellement versionné avec Git 
+\end{exemple}
+Dans le cadre de ce projet, nous avons privilégié l’utilisation de logiciels libres pour être en accord avec la philosophie de celui-ci. 
+Nous avons une longue expérience et une forte implication dans le monde du logiciel libre depuis plus de dix ans.
+Notre entreprise pratique une veille technologique sur le sujet en participant à des forums du libre, des évènements et des conférences comme la Réunion Mondiale du Logiciel Libre ou le Capitole du libre. Dans la mesure des besoins spécifiques du client, nous nous efforçons de proposer des solutions «libres».  Ce fut le cas dans nos différents projets d’ENE et d’ENT mais aussi au travers de notre participation dans des projets libres variés comme pour le développement de bibliothèque de traitement d’images comme GStreamer ou encore pour le développement de SongBird, un logiciel de gestion de librairie musicale. 
+
 	\subsection{Outils de suivis}
+	Le suivi de notre projet se fera au moyen de GitHub, plateforme de travail collaboratif. Celle-ci nous permet plusieurs choses : 
+	
+	\begin{itemize}
+		\item Le suivi des tickets en terme de nouvelles fonctionnalités ou de bogues, via les issues.
+		\item Le suivi des différentes versions du code source, via Git
+		\item Le lien entre notre code et les différents builds, via Travis CI.
+	\end{itemize}
+		
 	\subsection{Moyens de télécommuynication et d'échanges}
+	Notre équipe utilise plusieurs moyens de communication qui lui permet de suivre à tous moments les évènements liés aux projets en cours. Nos équipes restent en contact via l’application open source Zimbra qui permet d’avoir à tous moments la possibilité de discuter sur le projet ainsi que la possibilité de réaliser une conférence audiovisuelle si le besoin s’en fait sentir.
+	L’utilisation des commentaires sur les issues (tickets) GitHub est intégrée par notre équipe dans des discussions ciblées sur le sujet (mauvaise compréhension des objectifs, etc).
+	
 	\subsection{Environnement de développement}
+	Chaque développeur utilisera Java et Junit afin de rester cohérent avec le travail déjà effectué lors du développement de CORRELYCE. Nous utiliserons également l’IDE libre Eclipse, celui-ci permet de développer plus rapidement tout en ayant des remarques d’analyse statique sur notre code.
+	
 	\subsection{Plateformes techniques et logicielles}
+	Afin d’effectuer la meilleure TMA possible et d’avoir le produit de meilleure qualité possible, nous allons utiliser différentes plateformes pour nous aider dans cette tâche. 
+	
+	Ainsi, nous allons utiliser Git nous permettant de conserver l’ensemble des modifications de notre code source, tout en nous permettant d’effectuer une intégration efficace et simplifiée.
+	Celui-ci étant déjà utilisé par CORRELYCE actuellement, son utilisation n’en sera que facilitée.
+	
+	Pour que notre code soit le plus propre possible, en terme de quantité de tests, d’expressivité et de complexité, nous allons continuer d’utiliser les outils mis en place, c’est-à-dire CheckStyle, PMD et Emma. Afin de pouvoir réunir toutes leurs informations en un seul endroit, tout en ayant des informations supplémentaires, SonarQube est pertinent pour ce projet.
+	
+	L’intégration de nos modifications sont des opérations particulièrement importantes, l’utilisation de Travis CI nous permettra d’effectuer de l’intégration continue. Cette plateforme sera chargée de relancer l’ensemble des tests, de calculer les taux de couverture de tests et de faire le lien avec SonarQube afin d’avoir des données toujours à jour.
+	
+	Enfin, dans un projet nécessitant de la TMA, nous allons avoir beaucoup de déploiements divers à effectuer, c’est pour cela que nous allons mettre en place une plateforme de déploiement continue, celui-ci nous permettra de vérifier la conformité de l’application sur un serveur de pré-production.
+	Une fois la solution en place et bien ancrée, il sera théoriquement possible d’effectuer plusieurs déploiements par jour.
+	
+	
