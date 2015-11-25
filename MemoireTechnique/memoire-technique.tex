@@ -67,13 +67,9 @@
 \input{./templates/cover/couverture.tex}
 \makeatother
 \includeonly {
-%	contents/0-preambule,
-%	contents/1-identification_criteria,
-%	contents/2-limitations,
-%	contents/3-responsabilities_authorities,
-%	contents/4-planning,
-%	contents/5-maintenance,
-%	contents/references
+	contents/presentation,
+	contents/offre-technique-generale,
+	contents/offre-technique-detaillee
 }
 \begin{document}
 	\thispagestyle{empty} % Removes page numbers
@@ -84,7 +80,12 @@
 	\setcounter{minitocdepth}{1}
 	
 	\tableofcontents
-
+	
+	\include{contents/presentation}
+	\include{contents/offre-technique-generale}
+	\include{contents/offre-technique-detaillee}
+	
+		
 %	\include{contents/0-preambule}
 %	\include{contents/1-identification_criteria}
 %	\include{contents/2-limitations}
