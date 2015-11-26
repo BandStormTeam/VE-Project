@@ -1,6 +1,57 @@
 	\section{Préstations de la TMA (UO 2.2.1 à 2.2.3)}
 	\subsection{Enjeux}
+	La correction d’un bogue devra être la plus rapide et efficace possible, accompagnée de la mise à jour de la documentation technique et d’une note explicative sur les modifications de la nouvelle version de l’application. 
+	Les nouvelles fonctionnalités devront répondre correctement aux besoins de façon rigoureuse, accompagné de la mise à jour des documentations utilisateur et technique ainsi qu’une note contenant les spécificités de la nouvelle version.
+
+	La maintenance, aussi bien corrective qu’évolutive, devra être transparente pour les utilisateurs afin de ne pas gêner leur utilisation de l’application. 
+	
+	\begin{itemize}
+		\item Une nouvelle version de l’application sera créée pour chaque correction ou évolution, chacune de celle-ci sera accompagnée de : 
+		\item Documentation utilisateur et technique
+		\item Code source
+		\item Application
+		\item Note explicative
+	\end{itemize}
+
 	\subsubsection{Méthodologie}
+	Les clients disposent de plusieurs interfaces pour signaler des problèmes au niveau de l’application, tel que le téléphone, le courriel ou une interface Web dédiée. 
+	
+	Une fois un problème signalé, celui-ci sera pris en charge par l’équipe de développement via la création d’une issue sur Github. Un bogue prendra la priorité sur le développement des nouvelles fonctionnalités, celui-ci devra être corrigé avant de continuer le développement. 
+	
 	\subsubsection{Points forts}
+	L’organisation de notre équipe nous permet de répondre au mieux aux travaux de TMA. Nous disposons d’une force de réactivité grâce à la disponibilité de notre développeur une fois affecté au projet et aux renforts disponibles et possibles par nos deux ingénieurs expérimentés. 
+	
+	Cette organisation nous permet de répondre aussi bien aux besoins de maintenance évolutive spécifiés comme aux cas de surgissement de bogue. Les compétences fortes en développement de M. Stukof et les compétences en architecture logicielle de nos ingénieurs nous garantissent à la fois une avancée effective du travail par le développement et une qualité éprouvée en terme de conception et de choix de solutions techniques.
+	
 	\subsection{Compétences de l'équipe dédiée spécifiquement à l'UO}	
+	Table \ref{table:competencespresta}, nous avons résumé les compétences clefs en relation avec les prestations de TMA de nos deux ingénieurs.
+	\begin{table}[H]
+\centering
+\begin{tabular}{|p{3cm}|p{1.8cm}|c|c|c|p{3.2cm}|p{3cm}|}
+	\hline
+	\textbf{Nom} & \textbf{Gestion d'équipe} & \textbf{Kanban} & \textbf{Java} & \textbf{Git} & \textbf{Communication} & \textbf{Déploiement}\\
+	\hline
+	John du \bsc{Bois} & \checkmark & \checkmark &\checkmark  &\checkmark & &\\
+	\hline
+	Pauline \bsc{Marechal} & &\checkmark  & \checkmark&\checkmark  & \checkmark&\\
+	\hline
+	Rémy \bsc{Stukof} & &\checkmark  & \checkmark&\checkmark  & \checkmark&\checkmark\\
+	\hline
+\end{tabular}
+\caption{Compétences de l'équipe pour les prestations de TMA}
+\label{table:competencespresta}
+\end{table}
+
 	\subsection{Moyens techniques}
+	Afin de répondre aux mieux à vos attentes, nous allons utiliser plusieurs outils. La gestion des bogues et des nouvelles fonctionnalités étant particulièrement importante, nous allons utiliser Github qui permet de renseigner facilement les différents tickets à développer. 
+	Le développement des bogues et des nouvelles fonctionnalités pouvant se faire en parallèle, il est indispensable d’utiliser un système de branche, notamment via Git. 
+	
+	Nous aurons plusieurs branches de code, permettant d’accéder facilement au code : 
+	
+	\begin{itemize}
+		\item En production
+		\item De pré-production
+		\item De développement d’une nouvelle fonctionnalité
+	\end{itemize}
+		
+	En cas d’une correction de bogue prioritaire, il sera possible de corriger celui-ci via la branche de pré-production avant de rabattre cette modification en production. La pré-production nous permet de valider facilement les différentes modifications.

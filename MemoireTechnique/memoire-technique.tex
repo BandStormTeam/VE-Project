@@ -3,11 +3,14 @@
 \usepackage[svgnames]{xcolor} % Required to specify font color
 \input{./templates/couleurs.tex}
 %
+\usepackage{pdfpages}
 \usepackage{makeidx}
 \usepackage[utf8]{inputenc} 
 \usepackage{marvosym}
 \usepackage[T1]{fontenc}
 \usepackage[francais]{babel}
+\usepackage{graphicx}
+\usepackage{blindtext}
 \usepackage[top=1.7cm, bottom=1.7cm, left=1.7cm, right=1.7cm]{geometry}
 \usepackage{verbatim}
 \usepackage[urlbordercolor={1 1 1}, linkbordercolor={1 1 1}, linkcolor=vert1, urlcolor=bleu, colorlinks=true]{hyperref}
@@ -19,8 +22,8 @@
 \usepackage{slashbox}
 \usepackage{float}
 \usepackage[francais]{minitoc}
-\usepackage[final]{pdfpages} 
-\usepackage{pgfgantt}
+\usepackage{pdfpages} 
+
 \usepackage{graphicx} % Required for box manipulation
 \usepackage{makeidx}
 \usepackage{lscape}
@@ -86,6 +89,17 @@
 	\include{contents/offre-technique-detaillee}
 	
 	\appendix
+		\chapter{BPU}
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{BPU_ENE.pdf}
+\end{figure}
+\vfill
+	\chapter{DQE}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{DQE_ENE.pdf}
+\end{figure}
+
+
 	\listoffigures
 	\listoftables
 		
