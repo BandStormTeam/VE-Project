@@ -1,7 +1,79 @@
 	\section{Réversibilité (UO 2.4)}
 	\subsection{Compréhension du besoin et démarche proposée}
 	\subsubsection{Enjeux}
+	Il est important pour le MOA de récupérer l’ensemble des documentations, sources et autres composants du projet à la fin des travaux. Dans le but de permettre la réversibilité du projet. Autrement dit, l’entreprise choisie devra fournir tous les éléments qui permettront à une entreprise tierce de reprendre le projet dans des conditions optimales. 
+	
+	Il est également primordial de restituer les éléments dans un format défini au préalable par la maîtrise d’ouvrage.
+	
 	\subsubsection{Méthodologie}
+	La méthodologie employée pour répondre à cette unité d’oeuvre sera de réaliser et de suivre un plan de gestion de configuration. La réalisation de ce document ou son suivi, si un existant est déjà rédigé, permettra de maintenir un processus de développement efficace et de rassembler l’ensemble des livrables nécessaires. Ce document servira de référentiel concernant les spécifications liées aux différents livrables.
+	
+	Le paramétrage et la configuration du logiciel seront définis dans le document dédié aux aspects techniques du projet. Il sera notamment indiqué comment mettre en place les différents éléments nécessaires à la maintenance:
+	
+	\begin{itemize}
+		\item La configuration des outils de développement et de stockage des données devra être décrite précisément. 
+		\item La liste des mots de passe d’administration.
+	\end{itemize}
+	
+	Ce document permettra également de décrire l’architecture de CORRELYCE. Des diagrammes de classes, de composants et d’utilisations permettront de représenter de manière visuelle les différents éléments de l’application et son fonctionnement.
+	
+	Les rapports, les diaporamas, la restitution écrite des présentations, les bilans, les recommandations, les comptes rendus, les schémas et tous autres documents seront produits et archivés de manière efficace.
+	
 	\subsubsection{Points forts}
+	Notre grande expérience dans les TMA est un gage de qualité. Nous avons établi des processus rodés concernant la gestion du code et la production de documentations. Nos équipes possèdent des compétences variées et nous sommes à même de proposer des livrables de qualité permettant la réversibilité du projet. 
+	
 	\subsection{Compétences de l'équipe dédiée spécifiquement à l'UO}	
+	Chaque membre de l’équipe sera responsable de la création et de la mise à jour des éléments nécessaires à la réversibilité. 
+	
+	Les éléments concernant la gestion de code devront être traités par toute l’équipe. En effet, chaque membre possède et maîtrise des compétences en ce qui concerne la gestion du code avec Git. S’agissant d’un projet agile et d’une petite équipe, tous les membres devront coder.
+	
+	En ce qui concerne la gestion des documentations techniques, il est indispensable que tous les membres puissent participer aux mises à jour. Le coach agile doit, de son coté, vérifier que des mises à jour et la création de documents soient faites (plan de gestion de configuration, architecture, présentation…).
+	
+	Les ressources appliquées à ces taches ne sont pas disponibles tout le temps. Les détails concernant leurs disponibilités sont indiqués dans la matrice de planification.
+	
+	Table \ref{table:competences2}, nous avons résumé les compétences clefs en relation avec la réversibilité de notre équipe de développement:
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|p{3cm}|p{1.8cm}|c|c|c|p{3cm}|p{3cm}|}
+			\hline
+			\textbf{Nom} & \textbf{Gestion d'équipe} & \textbf{Kanban} & \textbf{Git} & \textbf{Java} & \textbf{Gestion de configuration} & \textbf{Architecture}\\
+			\hline
+			John du \bsc{Bois} & \checkmark & \checkmark &\checkmark  &\checkmark & \checkmark&\checkmark\\
+			\hline
+			Pauline \bsc{Marechal} & &\checkmark  & \checkmark&\checkmark  & \checkmark&\\
+			\hline
+			Rémy \bsc{Stukof} & &\checkmark  & \checkmark&\checkmark  & &\\
+			\hline
+		\end{tabular}
+		\caption{Compétences de l'équipe pour la réversibilité}
+		\label{table:competences2}
+	\end{table}
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			\textbf{Ressource} & \textbf{Forfait}\\
+			\hline
+			John du \bsc{Bois} & 3J\\
+						\hline
+			Pauline \bsc{Marechal} & 4J\\
+						\hline
+			Rémy \bsc{Stukof} & 10J\\
+			\hline
+		\end{tabular}
+		\caption{Répartition des ressources pour la réversibilité}
+	\end{table}
+	
+	M. John Du Bois du fait de son expérience et de sa participation dans le passé à des projets importants de l’entreprise est expérimenté dans la rédaction et la bonne mise en oeuvre d’un plan de configuration efficace ce qui permet de faire face aux situations de réversibilité sereinement. 
+	
+	Il a notamment participé à la mise en place d’un plan de gestion de configuration pour une application de gestion des vols chez Airbus. Ce projet se chiffrait à 3 millions d’euros et a été un grand succès.
+	
 	\subsection{Moyens techniques}
+	La gestion des versions du code source se fera via Git et GitHub. Les exécutables seront également stockés sur GitHub ainsi que tous les autres éléments nécessaires à la réversibilité du projet. Un plan de configuration sera rédigé et mis à jour si besoin lors du développement agile. Les procédures qui y seront décrites seront appliquées avec attention et feront l’objet de contrôles lors de différents point du développement agile. 
+	
+	Pour permettre de faciliter l’utilisation des différentes bibliothèques et leurs versions respectives, tout en gardant un historique de ces différentes versions nous allons utiliser un gestionnaire de dépendance, Maven. 
+	
+	
+	
