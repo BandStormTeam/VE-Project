@@ -52,12 +52,12 @@
 \contentsline {subsubsection}{\numberline {3.5.1.3}Points forts}{19}{subsubsection.3.5.1.3}
 \contentsline {subsection}{\numberline {3.5.2}Comp\IeC {\'e}tences de l'\IeC {\'e}quipe d\IeC {\'e}di\IeC {\'e}e sp\IeC {\'e}cifiquement \IeC {\`a} l'UO}{19}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Moyens techniques}{19}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}Participation \IeC {\`a} la d\IeC {\'e}finition d\IeC {\textquoteright }une gouvernance logicielle (UO 2.6)}{19}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Compr\IeC {\'e}hension du besoin et d\IeC {\'e}marche propos\IeC {\'e}e}{19}{subsection.3.6.1}
-\contentsline {subsubsection}{\numberline {3.6.1.1}Enjeux}{19}{subsubsection.3.6.1.1}
-\contentsline {subsubsection}{\numberline {3.6.1.2}M\IeC {\'e}thodologie}{19}{subsubsection.3.6.1.2}
-\contentsline {subsubsection}{\numberline {3.6.1.3}Points forts}{19}{subsubsection.3.6.1.3}
-\contentsline {subsection}{\numberline {3.6.2}Comp\IeC {\'e}tences de l'\IeC {\'e}quipe d\IeC {\'e}di\IeC {\'e}e sp\IeC {\'e}cifiquement \IeC {\`a} l'UO}{19}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Moyens techniques}{19}{subsection.3.6.3}
-\contentsline {chapter}{\numberline {A}Table des figures}{20}{appendix.A}
-\contentsline {chapter}{\numberline {B}Liste des tableaux}{21}{appendix.B}
+\contentsline {section}{\numberline {3.6}Participation \IeC {\`a} la d\IeC {\'e}finition d\IeC {\textquoteright }une gouvernance logicielle (UO 2.6)}{20}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Compr\IeC {\'e}hension du besoin et d\IeC {\'e}marche propos\IeC {\'e}e}{20}{subsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.1.1}Enjeux}{20}{subsubsection.3.6.1.1}
+\contentsline {subsubsection}{\numberline {3.6.1.2}M\IeC {\'e}thodologie}{20}{subsubsection.3.6.1.2}
+\contentsline {subsubsection}{\numberline {3.6.1.3}Points forts}{20}{subsubsection.3.6.1.3}
+\contentsline {subsection}{\numberline {3.6.2}Comp\IeC {\'e}tences de l'\IeC {\'e}quipe d\IeC {\'e}di\IeC {\'e}e sp\IeC {\'e}cifiquement \IeC {\`a} l'UO}{20}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Moyens techniques}{21}{subsection.3.6.3}
+\contentsline {chapter}{\numberline {A}Table des figures}{22}{appendix.A}
+\contentsline {chapter}{\numberline {B}Liste des tableaux}{23}{appendix.B}
