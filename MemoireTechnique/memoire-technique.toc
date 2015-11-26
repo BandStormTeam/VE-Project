@@ -2,7 +2,7 @@
 \contentsline {chapter}{\numberline {1}Pr\IeC {\'e}sentation g\IeC {\'e}n\IeC {\'e}rale du candidat}{3}{chapter.1}
 \contentsline {chapter}{\numberline {2}Offre technique g\IeC {\'e}n\IeC {\'e}rale}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Compr\IeC {\'e}hension du besoin}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}M\IeC {\'e}thodologies et d\IeC {\'e}marches}{6}{section.2.2}
+\contentsline {section}{\numberline {2.2}M\IeC {\'e}thodologie et d\IeC {\'e}marche}{6}{section.2.2}
 \contentsline {section}{\numberline {2.3}Organisation de l'\IeC {\'e}quipe}{7}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}\IeC {\'E}quipe de direction}{7}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}\IeC {\'E}quipe de d\IeC {\'e}veloppement}{7}{subsection.2.3.2}
@@ -13,7 +13,7 @@
 \contentsline {section}{\numberline {2.4}Aptitudes face aux unit\IeC {\'e}s d'\IeC {\oe }uvres}{9}{section.2.4}
 \contentsline {section}{\numberline {2.5}Moyens techniques}{10}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Outils de suivis}{10}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Moyens de t\IeC {\'e}l\IeC {\'e}commuynication et d'\IeC {\'e}changes}{10}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.2}Moyens de t\IeC {\'e}l\IeC {\'e}communication et d'\IeC {\'e}changes}{10}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Environnement de d\IeC {\'e}veloppement}{10}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}Plateformes techniques et logicielles}{10}{subsection.2.5.4}
 \contentsline {chapter}{\numberline {3}Offre technique d\IeC {\'e}taill\IeC {\'e}e}{12}{chapter.3}
@@ -25,7 +25,7 @@
 \contentsline {subsection}{\numberline {3.1.2}Comp\IeC {\'e}tences de l'\IeC {\'e}quipe d\IeC {\'e}di\IeC {\'e}e sp\IeC {\'e}cifiquement \IeC {\`a} l'UO}{13}{subsection.3.1.2}
 \contentsline {subsubsection}{\numberline {3.1.2.1}Cas similaires}{14}{subsubsection.3.1.2.1}
 \contentsline {subsection}{\numberline {3.1.3}Moyens techniques}{14}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Pr\IeC {\'e}stations de la TMA (UO 2.2.1 \IeC {\`a} 2.2.3)}{14}{section.3.2}
+\contentsline {section}{\numberline {3.2}Prestations de la TMA (UO 2.2.1 \IeC {\`a} 2.2.3)}{14}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Enjeux}{14}{subsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.1.1}M\IeC {\'e}thodologie}{15}{subsubsection.3.2.1.1}
 \contentsline {subsubsection}{\numberline {3.2.1.2}Points forts}{15}{subsubsection.3.2.1.2}
@@ -55,7 +55,7 @@
 \contentsline {section}{\numberline {3.6}Participation \IeC {\`a} la d\IeC {\'e}finition d\IeC {\textquoteright }une gouvernance logicielle (UO 2.6)}{21}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Compr\IeC {\'e}hension du besoin et d\IeC {\'e}marche propos\IeC {\'e}e}{21}{subsection.3.6.1}
 \contentsline {subsubsection}{\numberline {3.6.1.1}Enjeux}{21}{subsubsection.3.6.1.1}
-\contentsline {subsubsection}{\numberline {3.6.1.2}M\IeC {\'e}thodologie}{21}{subsubsection.3.6.1.2}
+\contentsline {subsubsection}{\numberline {3.6.1.2}M\IeC {\'e}thodologie}{22}{subsubsection.3.6.1.2}
 \contentsline {subsubsection}{\numberline {3.6.1.3}Points forts}{22}{subsubsection.3.6.1.3}
 \contentsline {subsection}{\numberline {3.6.2}Comp\IeC {\'e}tences de l'\IeC {\'e}quipe d\IeC {\'e}di\IeC {\'e}e sp\IeC {\'e}cifiquement \IeC {\`a} l'UO}{22}{subsection.3.6.2}
 \contentsline {subsection}{\numberline {3.6.3}Moyens techniques}{22}{subsection.3.6.3}
