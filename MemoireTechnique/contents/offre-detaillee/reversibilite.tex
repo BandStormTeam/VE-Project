@@ -3,6 +3,8 @@
 	\subsubsection{Enjeux}
 	Il est important pour le MOA de récupérer l’ensemble des documentations, sources et autres composants du projet à la fin des travaux. Dans le but de permettre la réversibilité du projet. Autrement dit, l’entreprise choisie devra fournir tous les éléments qui permettront à une entreprise tierce de reprendre le projet dans des conditions optimales. 
 	
+	Ces éléments doivent permettre de prendre en main le projet le plus rapidement possible afin de limiter les coups d’entrées. Il est ainsi nécessaire de documenter le projet, aussi bien d’un point de vue technique que fonctionnellement. Il doit être possible de créer un environnement de développement rapidement, de pouvoir effectuer une correction, et de déployer de nouveau le projet, et ceci pour un développeur ne connaissant pas le projet.
+	
 	Il est également primordial de restituer les éléments dans un format défini au préalable par la maîtrise d’ouvrage.
 	
 	\subsubsection{Méthodologie}
@@ -13,11 +15,14 @@
 	\begin{itemize}
 		\item La configuration des outils de développement et de stockage des données devra être décrite précisément. 
 		\item La liste des mots de passe d’administration.
+		\item Le déploiement d'une nouvelle version de l'application
 	\end{itemize}
 	
-	Ce document permettra également de décrire l’architecture de CORRELYCE. Des diagrammes de classes, de composants et d’utilisations permettront de représenter de manière visuelle les différents éléments de l’application et son fonctionnement.
+	Ce document permettra également de décrire l’architecture de \correlyce{}. Des diagrammes de classes, de composants et d’utilisations permettront de représenter de manière visuelle les différents éléments de l’application et son fonctionnement.
 	
 	Les rapports, les diaporamas, la restitution écrite des présentations, les bilans, les recommandations, les comptes rendus, les schémas et tous autres documents seront produits et archivés de manière efficace.
+	
+	Nous allons également conserver tous les tickets, ainsi que leur résolution afin que les prochains développeurs puisse avoir un historique des améliorations ou corrections ayant été faite.
 	
 	\subsubsection{Points forts}
 	Notre grande expérience dans les TMA est un gage de qualité. Nous avons établi des processus rodés concernant la gestion du code et la production de documentations. Nos équipes possèdent des compétences variées et nous sommes à même de proposer des livrables de qualité permettant la réversibilité du projet. 
@@ -25,7 +30,7 @@
 	\subsection{Compétences de l'équipe dédiée spécifiquement à l'UO}	
 	Chaque membre de l’équipe sera responsable de la création et de la mise à jour des éléments nécessaires à la réversibilité. 
 	
-	Les éléments concernant la gestion de code devront être traités par toute l’équipe. En effet, chaque membre possède et maîtrise des compétences en ce qui concerne la gestion du code avec Git. S’agissant d’un projet agile et d’une petite équipe, tous les membres devront coder.
+	Les éléments concernant la gestion de code et de bibliothèques devront être traités par toute l’équipe. En effet, chaque membre possède et maîtrise des compétences en ce qui concerne la gestion du code avec Git, et la gestion de dépendance avec Maven.
 	
 	En ce qui concerne la gestion des documentations techniques, il est indispensable que tous les membres puissent participer aux mises à jour. Le coach agile doit, de son coté, vérifier que des mises à jour et la création de documents soient faites (plan de gestion de configuration, architecture, présentation…).
 	
@@ -37,7 +42,7 @@
 		\centering
 		\begin{tabular}{|p{3cm}|p{1.8cm}|c|c|c|p{3cm}|p{3cm}|}
 			\hline
-			\textbf{Nom} & \textbf{Gestion d'équipe} & \textbf{Kanban} & \textbf{Git} & \textbf{Java} & \textbf{Gestion de configuration} & \textbf{Architecture}\\
+			\textbf{Nom} & \textbf{Gestion d'équipe} & \textbf{Kanban} & \textbf{Git} & \textbf{Maven} & \textbf{Gestion de configuration} & \textbf{Architecture}\\
 			\hline
 			John du \bsc{Bois} & \checkmark & \checkmark &\checkmark  &\checkmark & \checkmark&\checkmark\\
 			\hline
@@ -56,7 +61,7 @@
 			\hline
 			\textbf{Ressource} & \textbf{Forfait}\\
 			\hline
-			John du \bsc{Bois} & 3J\\
+			John \bsc{Du Bois} & 3J\\
 						\hline
 			Pauline \bsc{Marechal} & 4J\\
 						\hline
@@ -66,12 +71,12 @@
 		\caption{Répartition des ressources pour la réversibilité}
 	\end{table}
 	
-	M. John Du Bois du fait de son expérience et de sa participation dans le passé à des projets importants de l’entreprise est expérimenté dans la rédaction et la bonne mise en oeuvre d’un plan de configuration efficace ce qui permet de faire face aux situations de réversibilité sereinement. 
+	M. John \bsc{Du Bois} du fait de son expérience et de sa participation dans le passé à des projets importants de l’entreprise est expérimenté dans la rédaction et la bonne mise en œuvre d’un plan de configuration efficace ce qui permet de faire face aux situations de réversibilité sereinement. 
 	
 	Il a notamment participé à la mise en place d’un plan de gestion de configuration pour une application de gestion des vols chez Airbus. Ce projet se chiffrait à 3 millions d’euros et a été un grand succès.
 	
 	\subsection{Moyens techniques}
-	La gestion des versions du code source se fera via Git et GitHub. Les exécutables seront également stockés sur GitHub ainsi que tous les autres éléments nécessaires à la réversibilité du projet. Un plan de configuration sera rédigé et mis à jour si besoin lors du développement agile. Les procédures qui y seront décrites seront appliquées avec attention et feront l’objet de contrôles lors de différents point du développement agile. 
+	La gestion des versions du code source se fera via Git et GitHub. Les différentes versions de l'application seront également stockés sur GitHub ainsi que tous les autres éléments nécessaires à la réversibilité du projet. Un plan de configuration sera rédigé et mis à jour si besoin lors du développement agile. Les procédures qui y seront décrites seront appliquées avec attention et feront l’objet de contrôles lors de différents point du développement agile. 
 	
 	Pour permettre de faciliter l’utilisation des différentes bibliothèques et leurs versions respectives, tout en gardant un historique de ces différentes versions nous allons utiliser un gestionnaire de dépendance, Maven. 
 	
