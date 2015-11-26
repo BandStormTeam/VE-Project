@@ -27,7 +27,7 @@
 \usepackage{rotating}
 \usepackage{epstopdf}
 \usepackage{eurosym}
-
+\usepackage{multirow}
 \newcommand{\titre}{Mémoire Technique}
 \newcommand{\logoFooter}{~}
 \newcommand{\titreFooter}{Plan de Gestion de Configuration} 
@@ -35,7 +35,7 @@
 \newcommand{\auteur}{BERBIE Florent, DE ROQUEMAUREL Antoine}
 \newcommand{\semestre}{S9}
 \newcommand{\annee}{2015}
-%
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 %
 \newcommand{\pole}{}
 \newcommand{\sigle}{}
@@ -85,6 +85,9 @@
 	\include{contents/offre-technique-generale}
 	\include{contents/offre-technique-detaillee}
 	
+	\appendix
+	\listoffigures
+	\listoftables
 		
 %	\include{contents/0-preambule}
 %	\include{contents/1-identification_criteria}
