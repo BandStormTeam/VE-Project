@@ -7,7 +7,7 @@
 \contentsline {subsection}{\numberline {2.3.1}\IeC {\'E}quipe de direction}{7}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}\IeC {\'E}quipe de d\IeC {\'e}veloppement}{7}{subsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.2.1}R\IeC {\'e}my \bsc {Stukof}}{8}{subsubsection.2.3.2.1}
-\contentsline {subsubsection}{\numberline {2.3.2.2}Pauline \bsc {Mar\IeC {\'e}chal}}{8}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Pauline \bsc {Marechal}}{8}{subsubsection.2.3.2.2}
 \contentsline {subsubsection}{\numberline {2.3.2.3}John Du \bsc {Bois}}{8}{subsubsection.2.3.2.3}
 \contentsline {subsection}{\numberline {2.3.3}Organisation de l'\IeC {\'e}quipe}{8}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Aptitudes face aux unit\IeC {\'e}s d'\IeC {\oe }uvres}{9}{section.2.4}
